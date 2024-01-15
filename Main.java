@@ -5,7 +5,7 @@ public class Main {
         System.out.println(reverseNumber(n));
 
     }
-    public static int reverseNumber(int n) { //1998 1998%10 =199  8991
+    public static int reverseNumber(int n) {
         String val = String.valueOf(n);
         int valSize= val.length();
         if(n == 0) {
